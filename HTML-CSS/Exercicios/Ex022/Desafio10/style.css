@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+.passion-one-bold {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;}
+@font-face {
+    font-family: "sriracha";
+    src: url(Sriracha-Regular.ttf) format(truetype);
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-family: "Passion One"
+}
+header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: bold;
+        text-decoration: none;
+    color: white;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;}
+main{padding: 10px;
+    margin: 10px;}
+section{
+    font-family: "sriracha", Verdana, Geneva, Tahoma, sans-serif;
+}
+#paisagem{
+    background-image: url(imagens/background001.jpg);
+    background-size:cover;
+}
+#paginas{
+    background-image: url(imagens/background002.jpg);
+    background-size:cover;
+}
+.imagens{
+    color: white;
+    background-color: black;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+    margin:0;
+}
