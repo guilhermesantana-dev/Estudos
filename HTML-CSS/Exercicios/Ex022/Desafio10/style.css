@@ -8,10 +8,18 @@
     font-family: "sriracha";
     src: url(Sriracha-Regular.ttf) format(truetype);
 }
+body{padding: 0px;
+    margin: 0px;
+
+}
 header{
     background-color: black;
     color: white;
     text-align: center;
+    outline: none;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
 }
 h1{
     font-family: "Passion One"
@@ -30,23 +38,39 @@ a{
 a:hover{
     text-decoration: underline;
     color: white;}
-main{padding: 10px;
-    margin: 10px;}
+main{padding: 0px;
+    margin: 0px;}
 section{
     font-family: "sriracha", Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+
 }
 #paisagem{
     background-image: url(imagens/background001.jpg);
     background-size:cover;
+    outline: none;
+    margin: 0px;
+    width: 100%;
+     padding: 20px;
 }
+
 #paginas{
     background-image: url(imagens/background002.jpg);
     background-size:cover;
+    outline: none;
+    margin: 0px;
+    width: 100%;
+     padding: 20px;
 }
 .imagens{
     color: white;
     background-color: black;
-
+    outline: none;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;}
+.imagens p{
+   background-color:rgba(0, 0, 0, 0.562)
 }
 footer{
     background-color: black;
