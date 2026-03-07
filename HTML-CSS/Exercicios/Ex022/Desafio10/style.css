@@ -22,10 +22,15 @@ header{
     width: 100%;
 }
 h1{
-    font-family: "Passion One"
-}
+    font-family: "Passion One";
+    padding-top: 50px;
+    font-variant: small-caps;
+    margin:0px;
+    font-size: 10vw;
+ }
 header p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
 }
 a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -42,35 +47,46 @@ main{padding: 0px;
     margin: 0px;}
 section{
     font-family: "sriracha", Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
 
+}
+.texto p{
+    padding-bottom: 2em;
 }
 #paisagem{
     background-image: url(imagens/background001.jpg);
-    background-size:cover;
+    
     outline: none;
     margin: 0px;
     width: 100%;
-     padding: 20px;
+   
 }
 
 #paginas{
     background-image: url(imagens/background002.jpg);
-    background-size:cover;
+
     outline: none;
     margin: 0px;
     width: 100%;
-     padding: 20px;
+    
 }
 .imagens{
     color: white;
     background-color: black;
     outline: none;
-    padding: 10px;
     margin: 0px;
-    width: 100%;}
+    width: 100%;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.541);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: bottom right;}
 .imagens p{
-   background-color:rgba(0, 0, 0, 0.562)
+   background-color:rgba(0, 0, 0, 0.562);
+   display: inline-block;
 }
 footer{
     background-color: black;
