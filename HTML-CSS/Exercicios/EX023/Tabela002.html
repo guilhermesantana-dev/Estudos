@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        table{
+            height:600px ;
+            width: 600px;
+            border: 4px solid black;
+            border-collapse: collapse;
+            position: relative;
+        }
+        tr,td,th{border: 2px solid black;
+            border-collapse: collapse;
+            
+
+        }
+        thead>tr>th{position: sticky;
+                    top: -1px;
+                    background-color: cadetblue; ;}
+        td{
+            text-align: right;
+        }
+        thead tr{
+            background-color: cadetblue;
+        }
+        tfoot{
+            font-size:1.1em;
+            font-style:italic;
+        }
+        tbody tr:nth-child(odd){
+            background-color: rgb(109, 159, 204);
+        }
+        tbody tr:nth-child(even){
+            background-color: rgb(63, 96, 124);
+        }
+        p{
+            font-size:3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <table>
+        <thead>
+<tr><th scope="col" style="
+    width: 10px;">Raking</th><th scope="col">Estado</th>
+    <th scope="col" style="width: 70px;">População</th></tr>
+        </thead>
+
+        <tbody>
+<tr><td>1º</td><th>São Paulo</th>	<td>46.081.801</td></tr>
+<tr><td>2º</td><th>Minas Gerais</th>	<td>21.393.441</td></tr>
+<tr><td>3º</td><th>Rio de Janeiro</th>	<td>17.223.547</td></tr>
+<tr><td>4º</td><th>Bahia</th>	<td>14.870.907</td></tr>
+<tr><td>5º</td><th>Paraná</th>	<td>11.890.517</td></tr>
+<tr><td>6º</td><th>Rio Grande do Sul</th>	<td>11.233.263</td></tr>
+<tr><td>7º</td><th>Pernambuco</th><td>9.562.007</td></tr>
+<tr><td>8º</td><th>Ceará</th><td>9.268.836</td></tr>
+<tr><td>9º</td><th>Pará</th><td>8.711.196</td></tr>
+<tr><td>10º</td><th>Santa Catarina</th><td>8.187.029</td></tr>
+<tr><td>11º</td><th>Goiás</th><td>7.423.629</td></tr>
+<tr><td>12º</td><th>Maranhão</th><td>7.018.211</td></tr>
+<tr><td>13º</td>	<th>Amazonas</th>	<td>4.321.616</td></tr>
+<tr><td>14º</td>	<th>Paraíba</th>	<td>4.164.468</td></tr>
+<tr><td>15º</td>	<th>Espírito Santo</th>	<td>4.126.854</td></tr>
+<tr><td>16º</td>	<th>Mato Grosso</th>	<td>3.893.659</td></tr>
+<tr><td>17º</td>	<th>Rio Grande do Norte</th>	<td>3.455.236</td></tr>
+<tr><td>18º</td>	<th>Piauí</th>	<td>3.384.547</td></tr>
+<tr><td>19º</td>	<th>Alagoas</th>	<td>3.220.848</td></tr>
+<tr><td>20º</td>	<th>Distrito Federal</th>	<td>2.996.899</td></tr>
+<tr><td>21º</td>	<th>Mato Grosso do Sul</th>	<td>2.924.631</td></tr>
+<tr><td>22º</td>	<th>Sergipe</th>	<td>2.299.425</td></tr>
+<tr><td>23º</td>	<th>Rondônia</th>	<td>1.751.950</td></tr>
+<tr><td>24º</td>	<th>Tocantins</th>	<td>1.586.859</td></tr>
+<tr><td>25º</td>	<th>Acre</th>	<td>884.372</td></tr>
+<tr><td>26º</td>	<th>Amapá</th>	<td>806.517</td></tr>
+<tr><td>27º</td>	<th>Roraima</th>	<td>738.772</td></tr>
+        </tbody>
+
+        <tfoot> <tr>
+                <th>Raking</th>
+                <th scope="row">Total de população</th>
+                <td><strong>213.317.639</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum odit suscipit laboriosam a vel molestias minus voluptatum voluptas eveniet similique maiores quod est quia, quae non exercitationem, aperiam aspernatur laborum?</p>
+</body>
+</html>
