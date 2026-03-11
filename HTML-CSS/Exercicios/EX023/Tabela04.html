@@ -4,8 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        table{
+        border-collapse: collapse;
+        width: 300px;}
+        td{border: 2px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        text-align: center;}
+        th{
+            background-color: white;
+            color: black;
+            font-weight: bolder;
+        border: 2px solid black;}
+        caption{font-weight: bolder;}
+        .nome{
+            background-color: aquamarine;}
+        .vida{
+            background-color: aliceblue;
+        }
+        .profissao{
+            background-color: antiquewhite;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <h1>Exercicio de Tabela</h1>
+    <table>
+        <colgroup>
+        <col class="nome">
+        <col class="vida" span="2">
+        <col class="profissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+<tr>
+    <th>Nome</th>
+    <th>Sexo</th>
+    <th>Idade</th>
+    <th>Profissão</th>
+</tr>
+        </thead>
+    <tbody>
+    <tr>
+        <td>Ana Maria</td>
+        <td>F</td>
+        <td>25</td>
+        <td>Jornalista</td>
+    </tr>
+    <tr>
+        <td>Cláudio</td>
+        <td>M</td>
+        <td>28</td>
+        <td>Programador</td>
+    </tr>
+    <tr>
+        <td>Gustavo</td>
+        <td>M</td>
+        <td>42</td>
+        <td>Professor</td>
+    </tr>
+    <tr>
+        <td>Hélio</td>
+        <td>M</td>
+        <td>19</td>
+        <td>Vendedor</td>
+    </tr>
+    <tr>
+        <td>Maria</td>
+        <td>F</td>
+        <td>39</td>
+        <td>Médica</td>
+    </tr>
+    <tr>
+        <td>Otávio</td>
+        <td>M</td>
+        <td>22</td>
+        <td>Nutricionista</td>
+    </tr>
+    </tbody>
+    </table>
 </body>
 </html>
