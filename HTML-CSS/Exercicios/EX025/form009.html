@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="valor">Valor</label>
+            <input type="range" name="" id="valor" min="0" max="10" value="5"
+            oninput="ival.innerHTML= Number(valor.value)">
+            <output id="ival">5</output>
+        </p>
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>

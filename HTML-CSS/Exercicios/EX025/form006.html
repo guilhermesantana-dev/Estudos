@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <h1>Exemplo de Formulario</h1>
+        <p>
+        <label for="icol">Escolha uma cor</label>
+        <input type="color" name="color" id="icol">
+        </p>
+        <p>
+        <label for="isat">Nivel de satisfação</label>
+        <input type="range" name="sat" id="isat" min="1" max="5" value="5">
+        </p>
+        <p>
+        <label for="iarq">Escolha um arquivo</label>
+        <input type="file" name="arq" id="iarq">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
